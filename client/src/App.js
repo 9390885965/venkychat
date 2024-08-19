@@ -101,7 +101,7 @@ function App() {
         setIsRegistering(false);
         setError('');
       }
-      alert('User registered successfully. Please Login...');
+      alert('User registered successfully. Please Login.....');
     } catch (error) {
       setError('Registration failed');
     }
